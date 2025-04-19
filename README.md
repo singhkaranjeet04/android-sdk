@@ -1,10 +1,10 @@
-# Smartcar Android Auth SDK [![Build Status][ci-image]][ci-url] [![JavaDoc][javadoc-image]][javadoc-url] [![Maven Central][maven-image]][maven-url]
+# Smartcar IOS Auth SDK [![Build Status][ci-image]][ci-url] [![JavaDoc][javadoc-image]][javadoc-url] [![Maven Central][maven-image]][maven-url]
 
-The SmartcarAuth Android SDK makes it easy to integrate with Smartcar Connect from Android.
+The SmartcarAuth IOS SDK makes it easy to integrate with Smartcar Connect from IOS.
 
 ## Reference Documentation
 
-- [Smartcar Android Auth SDK JavaDoc][javadoc-url]
+- [Smartcar IOS Auth SDK JavaDoc][javadoc-url]
 - [Smartcar Developer Dashboard][smartcar-dashboard]
 - [Smartcar Documentation][smartcar-docs]
 
@@ -61,7 +61,7 @@ smartcarAuth.addClickHandler(getApplicationContext(), connectButton);
 String authUrl = smartcarAuth.authUrlBuilder()
     .setState("foo")
     .setForcePrompt(true)
-    .setMakeBypass("TESLA")
+    .setMakeBypass("FORD ENDEABOUR")
     .build();
 
 // Launch Smartcar Connect with the configured parameters
@@ -74,12 +74,12 @@ smartcarAuth.addClickHandler(getApplicationContext(), button, authUrl);
 
 ## Contributing
 
-Please use Android Studio 3.5 to develop on the Smartcar Android SDK.
+Please use iosStudio 3.5 to develop on the Smartcar ios SDK.
 
 [smartcar-dashboard]: https://dashboard.smartcar.com/login/
 [smartcar-docs]: https://smartcar.com/docs
-[ci-image]: https://app.buddy.works/smartcar/android-sdk/pipelines/pipeline/504649/badge.svg?token=97cfcc42803fd12732976ed9738a7a119d87532ffdd2686b5513bbaef42bad93
-[ci-url]: https://app.buddy.works/smartcar/android-sdk/pipelines/pipeline/504649
+[ci-image]: https://app.buddy.works/smartcar/ios-sdk/pipelines/pipeline/504649/badge.svg?token=97cfcc42803fd12732976ed9738a7a119d87532ffdd2686b5513bbaef42bad93
+[ci-url]: https://app.buddy.works/smartcar/ios-sdk/pipelines/pipeline/504649
 [javadoc-image]: https://javadoc.io/badge2/com.smartcar.sdk/smartcar-auth/javadoc.svg
 [javadoc-url]: https://javadoc.io/doc/com.smartcar.sdk/smartcar-auth
 [maven-image]: https://img.shields.io/maven-central/v/com.smartcar.sdk/smartcar-auth.svg?label=Maven%20Central
